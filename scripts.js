@@ -69,9 +69,10 @@
     }
 
     // Fonction pour retourner à la page d'accueil
-function goToHomePage() {
-    window.location.href = '/istqbtestwebsite/index.html';
-}
+    function goToHomePage() {
+        window.location.href = '/istqbtestwebsite/index.html';
+    }
+
     // Exposer les fonctions nécessaires globalement
     window.addToCart = addToCart;
     window.removeFromCart = removeFromCart;
