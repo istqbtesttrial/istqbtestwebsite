@@ -1,0 +1,66 @@
+/* Style général du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Style pour le conteneur principal */
+header, main, nav {
+    margin-bottom: 20px;
+}
+
+/* Style pour les titres principaux */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Style pour la liste de produits */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Style pour chaque bloc de produit */
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 350px; /* Consistent height for product containers */
+}
+
+/* Style pour les images de produits */
+.product img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Set a maximum height for images */
+    object-fit: cover; /* Crop to fit container */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Style pour les boutons */
+button, a {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Changement de couleur au survol des boutons et des liens */
+button:hover, a:hover {
+    background-color: #218838;
+}
