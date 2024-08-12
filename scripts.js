@@ -70,7 +70,7 @@
 
     // Fonction pour retourner à la page d'accueil
 function goToHomePage() {
-    window.location.href = '/testsalewebsite/index.html';
+    window.location.href = '/istqbtestwebsite/index.html';
 }
     // Exposer les fonctions nécessaires globalement
     window.addToCart = addToCart;
